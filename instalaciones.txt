@@ -1,0 +1,25 @@
+Instalaciones únicas
+1-	npm install --global gulp-cli
+    Este comando lo teneis que ejecutar una sola vez. Sirve para instalar gulp de forma global en el equipo para tenerlo disponible en todos los proyectos
+
+Instalaciones que se han de ejecutar en cada proyecto en el que querais incluir gulp
+2-	npm init
+3-	npm install --save-dev gulp
+4-	npm install --save-dev @babel/core @babel/register @babel/preset-env
+
+El proyecto debe contener:
+    - Un archivo .babelrc donde pondremos la configuración de babel
+    - Un archivo gulpfile.babel.js donde pondremos la configuración de gulp (en el caso de usar babel 6 el archivo deberá llamarse gulpfile.js)
+
+Transpilar JavaScript
+    gulp-babel:
+    Este el módulo que usará gulp para convertir el código a es5
+    npm install --save-dev gulp-babel
+
+    gulp-terser:
+    Es la nueva versión de uglify, sirve para ofuscar el código
+    npm install --save-dev gulp-terser
+    
+    gulp-concat:
+    Une todos nuestros archivos js en uno solo
+    npm install --save-dev gulp-concat
