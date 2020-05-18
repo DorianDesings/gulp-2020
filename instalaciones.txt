@@ -23,3 +23,18 @@ Transpilar JavaScript
     gulp-concat:
     Une todos nuestros archivos js en uno solo
     npm install --save-dev gulp-concat
+
+HTML
+    npm install --save gulp-htmlmin
+    Minifica y limpia nuestro HTML
+    https://github.com/kangax/html-minifier
+
+CSS
+    npm install --save-dev gulp-postcss cssnano autoprefixer
+
+
+    Para utilizar autoprefixer hay dos opciones, o añadir los navegadores a los que quieres dar soporte al package.json o hacerlo en un archivo separado.
+    .browserslistrc
+
+    postCSS: https://github.com/postcss/postcss/blob/master/docs/plugins.md
+

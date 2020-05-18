@@ -12,9 +12,15 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/register": "^7.9.0",
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-terser": "^1.2.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
   }
 }
