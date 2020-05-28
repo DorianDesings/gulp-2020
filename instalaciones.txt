@@ -38,3 +38,11 @@ CSS
 
     postCSS: https://github.com/postcss/postcss/blob/master/docs/plugins.md
 
+PUG
+    npm install --save-dev gulp-pug
+    
+SASS
+    npm install --save-dev gulp-sass
+
+purgar/limpiar CSS
+    npm install --save-dev gulp-purgecss
